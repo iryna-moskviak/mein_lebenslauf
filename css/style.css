@@ -1,0 +1,298 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f5f7fa;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  font-family: Montserrat;
+}
+
+.wrapper {
+  background: #fff;
+  display: flex;
+  max-width: 1200px;
+  margin: 0px auto;
+  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+
+.sidebar {
+  background: #1e2939;
+  width: 370px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.my-photo {
+  width: 370px;
+}
+.about-me-container {
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+
+.contacts-container {
+  margin-top: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.contact-info-block {
+ margin-bottom: 12px;
+}
+
+
+.contacts-title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 24px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.contacts-link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #999da3;
+  display: flex;
+  align-items: center;
+  margin-top: 4px;
+}
+
+.contacts-link span {
+  padding: 0px 8px 0px 8px;
+}
+
+.contacts-link-type {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #fff;
+  margin-right: 20px;
+}
+
+.tech-skills-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.tech-skills-container {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 55px;
+}
+
+.tech-skills-item {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ff6b08;
+  margin-left: 15px;
+}
+
+.tech-skills-text {
+  color: #b8bbc0;
+}
+
+.share-line {
+width: 280px;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+
+.soft-skills-container {
+  margin-left: 40px;
+  margin-right: 20px;
+  margin-top: 55px;
+}
+
+.soft-skills-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.soft-skills-item {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ff6b08;
+  margin-left: 15px;
+}
+
+.soft-skills-text {
+  color: #b8bbc0;
+}
+
+
+.profession {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.name {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 80px;
+}
+
+.description {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 24px;
+  width: 500px;
+  color: #595959;
+  margin-bottom: 45px;
+}
+
+.info-container {
+  margin-bottom: 45px;
+}
+
+.about-me-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.projects-container {
+  margin-bottom: 45px;
+}
+
+.projects-link {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.tech-name {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.dots {
+  color: #a8a8a8;
+  font-weight: 100;
+}
+
+.projects-item {
+  font-weight: 700;
+  margin-left: 18px;
+}
+
+.profession-title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.profession-company {
+  color: #ff6b08;
+}
+
+.profession-time {
+  color: #c0bdbd;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.profession-divider {
+  color: #000;
+}
+
+.profession-duties {
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+.profession-duties-item {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.share-line-body{
+width: 500px;
+margin-bottom: 15px;
+margin-top: 15px;
+}
+
+.education-container {
+  margin-top: 45px;
+}
+
+.education-institut {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #ff6b08;
+  padding-bottom: 10px;
+}
+
+.education-faculty {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.learning-features{
+    color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+
+.skills-level span {
+  display: inline-block;
+  margin: 3px 2px 3px 0px;
+   background: #8Faeaeae;
+   width: 30px;
+  height: 10px;
+}
+
+.skills-level span.achieved {
+   background: linear-gradient(45deg,  #ff6b08, orangered);
+}
+
+.about-me-icon-title-container {
+  display: flex;
+  align-items: center;
+  margin-left: -40px
+}
+
+.about-me-icon-title-container img {
+  padding: 0px 8px 0px 8px;
+}
+
+.about-me-title-container{
+color: #ff6b08;
+font-size: 15px;
+line-height: 24px;
+text-align: right;
+
+}
